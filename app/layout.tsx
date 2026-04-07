@@ -2,7 +2,6 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import type { ReactNode } from "react";
 import Footer from "./components/Footer";
-import Script from "next/script";
 
 export const metadata = {
   title: "Learn Italiano with Sonia",
@@ -20,18 +19,20 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
-        <Script
+        <script
+          async
           src="https://www.googletagmanager.com/gtag/js?id=G-V012XKZGQK"
-          strategy="afterInteractive"
         />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-V012XKZGQK');
-          `}
-        </Script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-V012XKZGQK');
+            `,
+          }}
+        />
       </head>
       <body className="bg-slate-950 text-white">
         <Navbar />
