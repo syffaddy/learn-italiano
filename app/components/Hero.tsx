@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                 >
                     <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-400 animate-ambulance"></span>
                     <span className="text-slate-600 text-[10px] font-black uppercase tracking-[0.2em]">
-                        New Batch Enrollment Open • Jan 2025
+                        New Batch Enrollment Open
                     </span>
                 </div>
 
