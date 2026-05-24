@@ -75,14 +75,14 @@ const Footer: React.FC = () => {
                         &copy; 2025 L&apos;Italiano Vero Language School. All rights reserved.
                     </p>
                     <p className="text-slate-400 text-[14px] font-bold">
-                        Made by{" "}
+                        Powered By{" "}
                         <a
                             href="https://shahrukhdeveloper.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-yellow-600 hover:underline"
                         >
-                            shahrukhdeveloper.com
+                            Bee4wd.com
                         </a>
                     </p>
                 </div>
