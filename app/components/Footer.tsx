@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                     <p className="text-slate-400 text-[14px] font-bold">
                         Powered By{" "}
                         <a
-                            href="https://shahrukhdeveloper.com"
+                            href="http://bee4wd.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-yellow-600 hover:underline"
