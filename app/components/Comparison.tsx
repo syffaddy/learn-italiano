@@ -135,7 +135,7 @@ export default function Comparison() {
                   <i className="fas fa-arrow-right ml-3 text-sm"></i>
                 </a>
                 <p className="text-center text-[10px] text-slate-500 mt-4 font-bold uppercase tracking-widest">
-                  Limited Slots Available for Jan 2025
+                  Limited Slots Available
                 </p>
               </div>
             </div>
